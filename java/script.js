@@ -161,7 +161,7 @@ function reversedNum(t) {
                 .reverse()
                 .join('')
 }
- document.write('d) 'reversedNum(t))
+ document.write('d) + 'reversedNum(t))
 
 
 
