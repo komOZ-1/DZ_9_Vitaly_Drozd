@@ -155,17 +155,13 @@ for (let i = 0; i < st.length; i++)
 document.write('c) ' + summ + '</br>')
 
 function reversedNum(t) {
-    return (
-        parseFloat(
-            t
+    return t
                 .toString()
                 .split('')
                 .reverse()
                 .join('')
-        ) * Math.sign(t)
-    )
 }
- document.write('d) ' + reversedNum(t))
+ document.write('d) 'reversedNum(t))
 
 
 
